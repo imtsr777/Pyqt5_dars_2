@@ -1,3 +1,9 @@
+"""
+textChanged
+
+"""
+
+
 from PyQt5.QtWidgets import *
 from data import userData
 
@@ -27,10 +33,11 @@ class Window(QMainWindow):
         self.bigText.setText(data)
 
     
+
+
+
+
 app = QApplication([])
 window = Window()
 window.show()
 app.exec()
-
-data = "Salom"
-print("" in data)
